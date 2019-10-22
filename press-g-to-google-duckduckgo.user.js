@@ -16,7 +16,7 @@
         if ('input' === document.activeElement.tagName.toLowerCase()) {
             return;
         }
-        if ('g' !== event.key) {
+        if ('KeyG' !== event.code) {
             return;
         }
 
